@@ -1,38 +1,97 @@
-.App {
+nav {
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
+  /* background-color: #9dc5c3;
+background-image: linear-gradient(315deg, #9dc5c3 0%, #998e8e 74%); */
+}
+
+body {
+  background-color: #30343a;
+  font-family: "Fira sans", sans-serif;
+}
+
+div h1 {
   text-align: center;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Buttons */
+#upper {
+  /* background-color: #30343a; */
+  color: black;
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
+  border: none;
+  box-shadow: -3px -3px 10px#ffffff20, 3px 3px 10px#000000,
+    -3px -3px 10px#ffffff20, 3px 3px 10px#000000;
+
+  font-weight: bolder;
+  padding: 1em 1em;
+}
+#upper:hover {
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
+#clear {
+  color: black;
+  border: none;
+  box-shadow: -3px -3px 10px#ffffff20, 3px 3px 10px#000000,
+    -3px -3px 10px#ffffff20, 3px 3px 10px#000000;
+  font-weight: bolder;
+  padding: 1em 1em;
+}
+#clear:hover {
+  transform: scale(0.9);
+  transition-duration: 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#search {
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #ff6c62 0%, #a774bf 74%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#summary {
+  border: none;
+  border-radius: 5px;
+  box-shadow: -3px -3px 8px#ffffff20, 3px 3px 8px#000000, -3px -3px 8px#ffffff20,
+    3px 3px 8px#000000;
+
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.23rem;
+  color: black;
+}
+#preview {
+  border: none;
+  border-radius: 5px;
+  box-shadow: -3px -3px 8px#ffffff20, 3px 3px 8px#000000, -3px -3px 8px#ffffff20,
+    3px 3px 8px#000000;
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #ff6c62 0%, #a774bf 74%);
+  /* text-align:center; */
+  font-weight: bolder;
+  font-size: 1.23rem;
+  text-overflow: ellipsis;
+  padding: 0em -2em;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* About Page */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* #accordian_1 {
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #ff6c62 0%, #a774bf 74%);
+  font-weight: bolder;
+}
+#accordian_2 {
+  background-color: #bf3a30;
+  background-image: linear-gradient(315deg, #ff6c62 0%, #a774bf 74%);
+  font-weight: bolder;
+}
+#accordian_3 {
+  background-image: linear-gradient(315deg, #ff6c62 0%, #a774bf 74%);
+  font-weight: bolder;
+} */
+
+.accordion-body {
+  background-color:  #ffffff90;
 }
